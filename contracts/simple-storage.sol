@@ -16,7 +16,8 @@ contract SimpleStorage{
 
     //a public function named store that accept a uint256 as argument
     // a function has access modifier such as public, private, external, internal
-    function store(uint256 _favouriteNumber)public{
+    //vitual keyword ensure child of the contract can override it
+    function store(uint256 _favouriteNumber)public virtual {
         favoriteNumber = _favouriteNumber;
     }
 
