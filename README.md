@@ -4,7 +4,12 @@ my first smart contract
 
 # implementing
 1. variables
-2. struct
-3. Arrays
-4. Functions
-5. Deployment to a test net
+2. types
+3. struct
+4. Arrays
+5. Functions
+6. mapping
+7. imports
+8. intro to memory,storage and calldata
+9. inheritance and override
+10. Deployment to a test net
